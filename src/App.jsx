@@ -5,7 +5,7 @@ import Account from "./components/Account"
 function App() {
   return (
     <>
-      <Link href="/account" className="Account-link">
+      <Link to={"/account"} className="Account-link">
         account page
       </Link>
       <Routes>
