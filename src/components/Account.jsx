@@ -26,7 +26,6 @@ const Account = () => {
     setShowForm({ ...showForm, [orderId]: false })
   }
 
-  // src/Account.js (top of file, after imports)
   /*
   //Backend Integration Notes:
   //- Fetch user data:
